@@ -22,7 +22,7 @@ havit-reproduction/               <- this repo
 └── README.md
 ```
 
-## Our experiments
+## Experiments
 
 | # | Key | What changes                           | Research question |
 |---|---|----------------------------------------|---|
