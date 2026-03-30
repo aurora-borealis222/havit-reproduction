@@ -16,7 +16,7 @@ havit-reproduction/               <- this repo
 │       ├── havit_learnable_alpha.py   <- EXP-A
 │       ├── havit_post_softmax.py      <- EXP-B
 │       ├── havit_zero_init.py         <- EXP-C
-│   -- HAViT_Colab.ipynb         <- Colab runner (imports from py files)
+│   └── HAViT_reproduction.ipynb       <- Colab runner (imports from py files)
 ├── pyproject.toml
 ├── requirements.txt
 └── README.md
