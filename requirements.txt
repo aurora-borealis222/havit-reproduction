@@ -1,0 +1,11 @@
+torch>=2.0.0
+torchvision>=0.15.0
+einops>=0.7.0
+tensorboard>=2.13.0
+colorama>=0.4.6
+torchsummary>=1.5.1
+tqdm>=4.65.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+black>=24.0.0
+isort>=5.12.0
