@@ -43,15 +43,11 @@ The notebook clones both repos, sets up paths, and calls `experiments/run.py`.
 
 ```
 
----
-
 ## Logging
 TensorBoard logs are written by the authors' `main.py` to `HAViT/tensorboard/`.
 ```bash
 tensorboard --logdir HAViT/tensorboard
 ```
-
----
 
 ## Requirements
 - Python ≥ 3.11
