@@ -5,7 +5,6 @@ with three architectural experiments on top of the authors' code.
 
 Authors' original repository: [github.com/banik-s/HAViT](https://github.com/banik-s/HAViT)
 
----
 
 ## Repository structure
 
@@ -21,27 +20,24 @@ havit-reproduction/               <- this repo
 ├── pyproject.toml
 ├── requirements.txt
 └── README.md
-
----
+```
 
 ## Our experiments
 
-| # | Key | What changes | Research question |
-|---|---|---|---|
-| repro | `baseline_vit` | - | Paper baseline: 75.74%? |
-| repro | `havit_v1` | - | Paper HAViT: 77.07%? |
-| A | `learnable_alpha` | Fixed α=0.9 → per-head `sigmoid(w_h)` | Can heads learn different α? |
-| B | `post_softmax` | Blend logits → blend probabilities | Does the blending space matter? |
-| C | `zero_init` | H₀=randn → H₀=zeros | How much does init noise help? |
----
+| # | Key | What changes                           | Research question |
+|---|---|----------------------------------------|---|
+| repro | `baseline_vit` | -                                      | Paper baseline: 75.74%? |
+| repro | `havit_v1` | -                                      | Paper HAViT: 77.07%? |
+| A | `learnable_alpha` | Fixed α=0.9 -> per-head `sigmoid(w_h)` | Can heads learn different α? |
+| B | `post_softmax` | Blend logits -> blend probabilities    | Does the blending space matter? |
+| C | `zero_init` | H₀=randn -> H₀=zeros                   | How much does init noise help? |
 
 ## How to run
 
 ### Colab (recommended)
 Open `notebooks/HAViT_Colab.ipynb` in Colab with T4 GPU.
-The notebook clones both repos, sets up paths, and calls `experiments/run.py`.
+The notebook clones both repos, sets up paths and calls `experiments/run.py`.
 
-```
 
 ## Logging
 TensorBoard logs are written by the authors' `main.py` to `HAViT/tensorboard/`.
