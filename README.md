@@ -35,7 +35,7 @@ havit-reproduction/               <- this repo
 ## How to run
 
 ### Colab (recommended)
-Open `notebooks/HAViT_Colab.ipynb` in Colab with T4 GPU.
+Open `HAViT_reproduction.ipynb` in Colab with T4 GPU.
 The notebook clones both repos, sets up paths and calls `experiments/run.py`.
 
 
