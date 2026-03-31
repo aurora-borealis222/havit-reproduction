@@ -101,7 +101,7 @@ def main() -> None:
     p.add_argument("--data_path", default="./datasets/")
     cli = p.parse_args()
     run_experiment(cli.exp, cli)
-    print("\n✅ Done.")
+    print("\n Done.")
 
 
 if __name__ == "__main__":
